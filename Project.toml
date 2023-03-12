@@ -1,0 +1,17 @@
+name = "AccessMySQL"
+uuid = "59e9c4dc-f072-44a0-a340-da8f9f34b745"
+authors = ["sl-solution <github.sl.solution@icloud.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+InMemoryDatasets = "5c01b14b-ab03-46ff-b164-14c663efdd9f"
+MySQL = "39abe10b-433b-5dbd-92d4-e302a9df00cd"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
